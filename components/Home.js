@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
+import LastTweet from './LastTweets';
 
 function Home() {
   return (
@@ -26,7 +27,9 @@ function Home() {
           <input className={styles.inputAdd} placeholder="What's up" />
           <div className={styles.countAndAdd}>Count & ADD</div>
         </div>
-        <div className={styles.tweetsContainer}>TWEETS</div>
+        <div className={styles.tweetsContainer}>
+          <LastTweet />
+        </div>
       </div>
 
       <div className={styles.rightSection} >RIGHT</div>
