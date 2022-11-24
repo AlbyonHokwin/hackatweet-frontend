@@ -1,11 +1,10 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(10, 20, 37);
+  background-color: #1B212A;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
