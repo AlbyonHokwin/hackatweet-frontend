@@ -1,0 +1,36 @@
+.container {
+    background-color: #20262E;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5%;
+
+}
+
+.hashtag {
+    color: white;
+    font-size: 1.1em;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.hashtag:hover {
+    opacity: 0.8;
+}
+
+.counter {
+    color: #757F92;
+    font-size: 0.9em;
+    margin: 0;
+} 

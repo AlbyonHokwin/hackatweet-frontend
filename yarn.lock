@@ -349,16 +349,25 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-<<<<<<< HEAD
+"@ctrl/tinycolor@^3.4.0":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
+  integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
+
+"@emotion/hash@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+  integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
+
+"@emotion/unitless@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
+
 "@fortawesome/fontawesome-common-types@6.2.1":
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.1.tgz#411e02a820744d3f7e0d8d9df9d82b471beaa073"
   integrity sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==
-
-"@fortawesome/fontawesome-free@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.2.1.tgz#344baf6ff9eaad7a73cff067d8c56bfc11ae5304"
-  integrity sha512-viouXhegu/TjkvYQoiRZK3aax69dGXxgEjpvZW81wIJdxm5Fnvp3VVIP4VHKqX4SvFw6qpmkILkD4RJWAdrt7A==
 
 "@fortawesome/fontawesome-svg-core@^6.2.1":
   version "6.2.1"
@@ -387,22 +396,6 @@
   integrity sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==
   dependencies:
     prop-types "^15.8.1"
-=======
-"@ctrl/tinycolor@^3.4.0":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
-  integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
-
-"@emotion/hash@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
-  integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
-
-"@emotion/unitless@^0.7.5":
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
-  integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
->>>>>>> 3db626684c34d40a81421ad25fe6b02a13da4ff7
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -3374,11 +3367,7 @@ react-dom@18.1.0:
     loose-envify "^1.1.0"
     scheduler "^0.22.0"
 
-<<<<<<< HEAD
-react-is@^16.13.1, react-is@^16.7.0:
-=======
-react-is@^16.12.0, react-is@^16.7.0:
->>>>>>> 3db626684c34d40a81421ad25fe6b02a13da4ff7
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
