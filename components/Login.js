@@ -24,10 +24,12 @@ function Login() {
         setIsModalSignInOpen(true);
     };
 
-
+    const handleCancel = () => {
+        setIsModalSignUpOpen(false);
+        setIsModalSignInOpen(false);
+    };
 
     return (
-
         <>
             <div className={styles.Home} >
 
@@ -47,38 +49,25 @@ function Login() {
                     </div>
                     <h2 className={styles.soustitre}>JOIN HACKATWEET TODAY.</h2>
 
-                    <Button type="primary" onClick={showSignUpModal} className={styles.buttoncompact}>
+                    <Button type="primary" onClick={showSignUpModal} className={styles.buttoncompact} >
                         Sign Up
                     </Button>
-
-                    <Modal className={styles.modal} open={isModalSignUpOpen} footer={null}>
+                    <Modal className={styles.modal} open={isModalSignUpOpen} footer={null} onCancel={handleCancel}>
                         <SignUp />
                     </Modal>
+
                     <p className={styles.p}>  Already have an account </p>
 
                     <Button type="secondary" onClick={showSignInModal} className={styles.buttonbordure}>
                         Sign In
                     </Button>
-                    <Modal className={styles.modal} open={isModalSignInOpen} footer={null}>
+                    <Modal className={styles.modal} open={isModalSignInOpen} footer={null} onCancel={handleCancel}>
                         <SignIn />
                     </Modal>
-
-
-
-
-
-
                 </div>
-
             </div>
-
         </>
-
-
-
     );
 };
-
-
 
 export default Login;
