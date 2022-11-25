@@ -1,4 +1,6 @@
 import styles from '../styles/Home.module.css';
+import tweet from '../reducers/tweets';
+
 
 function Home() {
   return (
