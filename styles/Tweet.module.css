@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    border-bottom: 1px solid #3C424B;
+}
+
+.tweetInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.userImg {
+    border-radius: 50%;
+}
+
+.userInfos {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.firstname {
+    font-size: 1.1em;
+    font-weight: 800;
+    color: white;
+}
+
+.username {
+    font-size: 1.1em;
+    color: #787F8A;
+}
+
+.message {
+    color: white;
+    font-size: 1.1em;
+    margin: 10px 0 20px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    color: white;
+}
+
+.likeContainer {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.likeContainer:hover {
+    opacity: 0.8;
+}
+
+.trashIcon {
+    cursor:pointer;
+}
+
+.trashIcon:hover {
+    opacity: 0.8;
+}

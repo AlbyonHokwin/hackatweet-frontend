@@ -1,10 +1,28 @@
 import styles from '../styles/LastTweets.module.css';
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 import Tweet from './Tweet';
 
 function LastTweets() {
+    const [tweets, setTweets] = useState([]);
+    const token = "7YhFQHPmxGnP0IgSH1HUKOne3_u07n_S";
+
+    useEffect(() => {
+        fetch(`http://localhost:3000/tweets/lasts/${token}`)
+            .then(response => response.json())
+            .then(data => {
+                data.result && setTweets(data.tweets);
+            });
+    }, [])
+
+    const tweetsDisplay = tweets.map((tweet, i) => {
+        console.log(tweet.canDelete);
+        return <Tweet key={i} {...tweet} userImg="/twitter.png" isLike={false} likeCount={0} />
+    })
+
     return (
-        <div>LastTweets</div>
+        <div className={styles.container} >
+            {tweetsDisplay};
+        </div>
     )
 }
 
