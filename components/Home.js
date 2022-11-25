@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import LastTweets from './LastTweets';
+import Trends from './Trends';
 import { useState } from 'react';
 
 function Home() {
@@ -41,7 +42,7 @@ function Home() {
 
       <div className={styles.middleSection} >
         <div className={styles.addSection}>
-          <h1>Home</h1>
+          <h2>Home</h2>
           <textarea rows="3" className={styles.inputAdd} placeholder="What's up" onChange={e => tweetLength < 280 && setNewTweet(e.target.value)} value={newTweet} />
           <div className={styles.countAndAdd}>
             <span className={styles.tweetLength}>{tweetLength}/280</span>
@@ -53,7 +54,12 @@ function Home() {
         </div>
       </div>
 
-      <div className={styles.rightSection} >RIGHT</div>
+      <div className={styles.rightSection}>
+        <div className={styles.trendsSection}>
+          <h2>Trends</h2>
+          <Trends />
+        </div>
+      </div>
     </div>
   );
 }
