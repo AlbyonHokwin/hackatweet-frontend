@@ -15,7 +15,6 @@ function LastTweets() {
     }, [])
 
     const tweetsDisplay = tweets.map((tweet, i) => {
-        console.log(tweet.canDelete);
         return <Tweet key={i} {...tweet} userImg="/twitter.png" isLike={false} likeCount={0} />
     })
 

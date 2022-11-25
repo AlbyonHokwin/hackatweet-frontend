@@ -16,7 +16,7 @@ function Trends() {
     const trendsDisplay = trends.map((trend, i) => {
         return (
             <div key={i} className={styles.trend}>
-                <h3 className={styles.hashtag}>#{trend.hashtag}</h3>
+                <Link href={`/hashtag/${trend.hashtag}`}><h3 className={styles.hashtag}>#{trend.hashtag}</h3></Link>
                 <p className={styles.counter}>{trend.count} Tweet{trend.count > 1 && 's'}</p>
             </div>
         );
